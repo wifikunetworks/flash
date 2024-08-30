@@ -1,0 +1,1 @@
+wget -O /sdcard/Download/uboot.bin https://github.com/wifikunetworks/flash/raw/main/uboot.bin && dd if=/sdcard/Download/uboot.bin of=/dev/block/bootloader && reboot update
